@@ -6,24 +6,47 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
-    <link rel="apple-touch-icon" sizes="180x180" href=".\img\Favicons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href=".\img\Favicons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href=".\img\Favicons/favicon-16x16.png">
-    <link rel="manifest" href=".\img\Favicons/site.webmanifest">
-    <link rel="mask-icon" href=".\img\Favicons/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="shortcut icon" href=".\img\Favicons/favicon.ico">
-    <meta name="msapplication-TileColor" content="#603cba">
-    <meta name="msapplication-config" content=".\img\Favicons/browserconfig.xml">
-    <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href=".\img\Favicons/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href=".\img\Favicons/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href=".\img\Favicons/favicon-16x16.png" />
+    <link rel="manifest" href=".\img\Favicons/site.webmanifest" />
+    <link rel="mask-icon" href=".\img\Favicons/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="shortcut icon" href=".\img\Favicons/favicon.ico" />
+    <meta name="msapplication-TileColor" content="#603cba" />
+    <meta name="msapplication-config" content=".\img\Favicons/browserconfig.xml" />
     <!-- <link rel="stylesheet" type="text/css" href="./css/main.css" /> -->
   </head>
   <body>
     <div class="container">
-      <header></header>
-      <main>
-        <h1>Enter h1 here</h1>
+      <header class="container__header header">
+        <!--Put logo here-->
+      </header>
+      <main class="container__main main">
+        <section class="main__intro">
+          <h1 class="main__header">Welcome to Astrofy!</h1>
+          <p class="main__para">
+            Enter your birth date to get a playlist of songs that hit #1 during your astrological
+            season.
+          </p>
+        </section>
+        <section class="main__form form">
+          <form class="form__bday">
+            <label class="hide" for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday" />
+            <button type="submit" value="submit">Submit</button>
+          </form>
+        </section>
+        <section class="main__results results hide">
+          <h2 class="results__header"></h2>
+          <div class="results__symbol"></div>
+          <div class="results__para"></div>
+          <div class="results__playlist playlist">
+            <h3 class="playlist__para"></h3>
+            <div class="playlist__embed"></div>
+          </div>
+        </section>
       </main>
-      <footer></footer>
+      <footer class="container__footer footer"></footer>
     </div>
 
     <!-- <script src="./js/script.js"></script> -->
