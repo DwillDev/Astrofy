@@ -1,0 +1,46 @@
+@import url("https://rsms.me/inter/inter.css");
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#2D2B4A), to(#212036)) no-repeat center center fixed;
+  background: linear-gradient(#2D2B4A, #212036) no-repeat center center fixed;
+}
+
+.container__main {
+  border: 0.3rem solid #E7E1B3;
+  border-radius: 1rem;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  color: #E7E1B3;
+  font-size: 16px;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html,
+body {
+  width: 100%;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  padding: calc(max(1%,10px));
+}
+
+img {
+  max-width: 100%;
+}
+
+.hide {
+  display: none;
+}

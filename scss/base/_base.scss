@@ -1,0 +1,11 @@
+body{
+    background: $bg-color no-repeat center center fixed;  
+}
+.container{
+
+    &__main{
+        border: .3rem solid $content-color;
+        border-radius: 1rem;
+    }
+
+}
