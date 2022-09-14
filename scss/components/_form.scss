@@ -1,0 +1,17 @@
+.form {
+  &__bday {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap:2rem;
+  }
+
+  &__date,
+  &__submit {
+    @include form-style;
+  }
+
+  &__submit {
+    border-radius: 15%;
+  }
+}
