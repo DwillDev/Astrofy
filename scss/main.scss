@@ -16,8 +16,10 @@
   'base/helpers';
 
 // 4. Layout-related sections
+@import 'layout/header','layout/container','layout/main';
 
 // 5. Components
+@import 'components/form';
 
 // 6. Page-specific styles
 
