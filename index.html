@@ -23,7 +23,7 @@
       </header>
       <main class="container__main main">
         <section class="main__intro">
-          <h1 class="main__header">Welcome to Astrofy!</h1>
+          <h1 class="main__header visuallyhidden">Welcome to Astrofy!</h1>
           <p class="main__para">
             Enter your birth date to get a playlist of songs that topped the charts during your astrological
             season.
@@ -32,8 +32,8 @@
         <section class="main__form form">
           <form class="form__bday">
             <label class="hide" for="birthday">Birthday:</label>
-            <input type="date" id="birthday" name="birthday" />
-            <button type="submit" value="submit">Submit</button>
+            <input type="date" id="birthday" class="form__date" name="birthday" />
+            <button type="submit" value="submit" class="form__submit">Submit</button>
           </form>
         </section>
         <section class="main__results results hide">
