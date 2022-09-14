@@ -4,15 +4,9 @@ body {
   background: linear-gradient(#2D2B4A, #212036) no-repeat center center fixed;
 }
 
-.container__main {
-  border: 0.3rem solid #E7E1B3;
-  border-radius: 1rem;
-}
-
-body {
+* {
   font-family: "Inter", sans-serif;
   color: #E7E1B3;
-  font-size: 16px;
 }
 
 html {
@@ -43,4 +37,73 @@ img {
 
 .hide {
   display: none;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+  min-width: 20rem;
+}
+
+.container__header {
+  width: calc(100vw - 40%);
+  max-width: 30rem;
+}
+
+.container__main {
+  width: calc(100vw - 20%);
+  padding: 2rem;
+  border: 0.3rem solid #E7E1B3;
+  border-radius: 1rem;
+}
+
+.main {
+  text-align: center;
+}
+
+.main__para {
+  margin-bottom: 2rem;
+}
+
+.form__bday {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 2rem;
+}
+
+.form__date, .form__submit {
+  background-color: transparent;
+  border-color: #E7E1B3;
+}
+
+.form__submit {
+  border-radius: 15%;
 }
