@@ -1,0 +1,9 @@
+@mixin font-style{
+    font-family: $inter;
+    color:$content-color;
+}
+
+@mixin form-style{
+    background-color: transparent;
+    border-color:$content-color;
+}
