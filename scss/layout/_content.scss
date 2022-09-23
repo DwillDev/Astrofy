@@ -1,0 +1,38 @@
+.content {
+  display: inherit;
+  flex-flow: inherit;
+  justify-content: center;
+  gap: 2.5rem;
+  width: calc(100vw - 20%);
+  padding: 2.5rem 1.7rem;
+  border: 0.3rem solid $content-color;
+  border-radius: 1rem;
+  text-align: center;
+
+}
+
+.results {
+  display: inherit;
+  flex-flow: inherit;
+  gap:2rem;
+  padding-top:1.5rem;
+
+  &__symbol {
+    width: 30%;
+    margin: auto;
+  }
+
+  &__para{
+    padding-bottom: 1.5rem;
+  }
+}
+
+.playlist {
+  display:inherit;
+  flex-flow:inherit;
+  gap:3rem;
+  
+  &__embed {
+    //how tf do i change the playlist color
+  }
+}
