@@ -1,3 +1,23 @@
-*{
-    @include font-style;
+.wrapper {
+  font-size: $body-default-mb;
+}
+
+@for $i from 1 to 4 {
+  h#{$i} {
+    @include font-style-normal;
+  }
+}
+
+[class$="para"] {
+  @include font-style-normal;
+}
+
+.results {
+  &__para {
+    font-size: $para-mb;
+  }
+}
+
+.form * {
+  font-size: $body-default-mb;
 }
