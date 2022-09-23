@@ -1,9 +1,18 @@
-@mixin font-style{
-    font-family: $inter;
-    color:$content-color;
+@mixin font-style-normal {
+  font-family: $inter;
+  color: $content-color;
+  font-weight: 400;
 }
 
-@mixin form-style{
-    background-color: transparent;
-    border-color:$content-color;
+@mixin font-style-bold {
+  font-family: $inter;
+  color: $content-color;
+  font-weight: 500;
+}
+
+@mixin form-style {
+  background-color: transparent;
+  border-color: $content-color;
+  border-style: solid;
+  @include font-style-normal;
 }

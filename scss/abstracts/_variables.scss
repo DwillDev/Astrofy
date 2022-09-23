@@ -4,4 +4,7 @@ $content-color:#E7E1B3;
 
 //Fonts
 $inter: 'Inter', sans-serif; 
-$txt-d: 16px;
+$body-default-mb: clamp(8px,4.2vw,16px);
+$para-mb:clamp(6px,3.6vw,14px)
+
+// $body-sz-pc: 16px;
